@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>create</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <style>
+    .login{
+        width: 250px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 400px;
+        padding: 80px;
+        background: #ADD8E6;
+        border-radius: 15px ;
+
+}
+    #rcorners2 {
+  border-radius: 25px;
+  border: 2px solid black ;
+  padding: 10px; 
+  width: 200px;
+  height: 1vh;  
+  background-color: lightblue;
+}
+.p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.password-container{
+  width: 250px;
+  position: relative;
+}
+.password-container input[type="password"],
+.password-container input[type="text"]{
+   border-radius: 25px;
+  border: 2px solid black ;
+  padding: 10px; 
+  width: 200px;
+  height: 1vh;  
+  background-color: lightblue;
+}
+.fa-eye{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  cursor: pointer;
+  color: black;
+}
+.btn{
+  display: inline-block;
+  background: tomato;
+  padding: 8px 40px;
+  margin: 20px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-decoration: none;
+}
+.btn:hover{
+  background: #563434;
+}
+
+  </style>
+</head>
+<body background="C:\Users\Admin\Documents\HTML & CSS\background-with-colorful-shopping-bags-vector-illustration-sale-discount-concept_653240-59.webp">
+  <center>
+    <img src="C:\Users\Admin\Downloads\suratshop logo.png" width="250px;"><br><br>
+    <div class="login">
+   <form action="otp.html" id="login">
+    <font face="Calibari" size="+1  ">
+  <label for="firstname" class="p1">First name: </label><br>
+  <input type="text" id="rcorners2" name="firstname" placeholder="e.g: Rohit" required=""><br><br>
+  <label for="lastname" class="p1">Last name: </label><br>
+  <input type="text" id="rcorners2" name="lastname" placeholder="e.g: Singh" required=""><br><br>
+<label for="phone" class="p1">Mobile :</label><br>
+  <input type="tel" id="rcorners2" name="phone" placeholder="9852-XXXX-65" pattern="[0-9]{4}[0-9]{4}[0-9]{2}" required><br><br>
+  <label for="email" class="p1">Email:</label><br>
+  <input type="email" id="rcorners2" name="email" placeholder="e.g: abc123@gmail.com" required=""><br><br>
+  <label for="password" class="p1">Create Password:</label><br>
+<div class="password-container">
+  <input type="password" placeholder="Password..." id="password" required="">
+  <i class="fa-solid fa-eye" id="eye"></i>
+
+</div>
+ <input type="submit" name="submit" class="btn">
+</div>
+</font>
+</form>
+
+
+  </center>
+<script>
+  const passwordInput = document.querySelector("#password")
+const eye = document.querySelector("#eye")
+eye.addEventListener("click", function(){
+  this.classList.toggle("fa-eye-slash")
+  const type = passwordInput.getAttribute("type") === "password" ? "text" : "password"
+  passwordInput.setAttribute("type", type)
+})
+</script>
+</body>
+</html>

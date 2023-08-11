@@ -1,0 +1,178 @@
+  @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.login{
+        width: 250px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 400px;
+        padding: 80px;
+        background: #ADD8E6;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: black;
+    font-size: 16px;
+    margin-right: 40px;
+}
+button{
+  display: inline-block;
+  background: blue;
+  padding: 8px 40px;
+  margin: 20px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-decoration: none;
+  color: white;
+}
+
+.blink {
+            animation: blinker 2.5s linear infinite;
+            color: #0047AB;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+#Uname{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+
+
+.btn{
+  display: inline-block;
+  background: blue;
+  padding: 8px 40px;
+  margin: 20px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-decoration: none;
+}
+.btn:hover{
+  background: #563434;
+}
+.label1{
+    color: black;
+    font-size: 20px;
+    margin-right: 100px;
+    font-family: Comic Sans MS,cursive;
+}
+
+
+span{
+    color: white;
+    font-size: 17px;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo{
+  margin-bottom: 30px;
+
+}
+
+footer h4{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin: 10px ;
+}
+
+footer .follow{
+  margin-top: 20px;
+} 
+
+footer .follow i{
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+
+}
+
+footer .install .row img{
+  border:1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;
+
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088174;
+}
+
+footer .copyright{
+  width: 100%;
+  text-align: center;
+}
+/*start media query*/
+@media only screen and (max-width: 980px)
+{
+  .login
+  {
+    height: 118px;
+    border-bottom: 0;
+    width: 200px;
+  }
+  .container
+  {
+    height: 20px;
+    width: 250px;
+  }
+  #Uname
+  {
+    width: 250px;
+  }
+  h3
+  {
+   margin-top: 40px;
+   width: 400px;
+  }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Input field</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 50%;
+  align-items: space-around;
+  justify-content: center;
+        width: 200px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 400px;
+        padding: 80px;
+        background: #ADD8E6;
+        border-radius: 15px ;
+
+}
+
+.userInput {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin: 10px;
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: arimo;
+  font-size: 1.2rem;
+  background: tomato;
+}
+
+h1 {
+  text-align: center;
+  font-family: arimo;
+  color: black;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  margin: 25px auto 0px auto;
+  font-family: arimo;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  background: #563434; /* fallback for old browsers */
+}
+  </style>
+</head>
+
+<body>
+  <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofocus Field</title>
+    <link rel="stylesheet" type="text/css" href="otp.css">
+</head>
+<body background="C:\Users\Admin\Documents\HTML & CSS\background-with-colorful-shopping-bags-vector-illustration-sale-discount-concept_653240-59.webp">
+  <center><img src="C:\Users\Admin\Downloads\suratshop logo.png" width="250px;"></center>
+  <br><form action="signup.html">
+    <div class="container">
+        <h1>ENTER OTP</h1>
+        <div class="userInput">
+            <input type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')" required="">
+            <input type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')" required="">
+            <input type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')" required="">
+            <input type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')" required="">
+            <input type="text" id="fifth" maxlength="1">
+        </div>
+        <button style="background-color: blue; color: white;">CONFIRM</button><br><a href="#">Didn't Recieve OTP</a>
+    </div>
+  </form>
+
+</body>
+</html>
+ <script>
+   function clickEvent(first,last){
+  if(first.value.length){
+    document.getElementById(last).focus();
+  }
+}
+ </script>
+</body>
+
+</html>
