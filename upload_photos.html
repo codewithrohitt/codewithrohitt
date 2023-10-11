@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Photos</title>
+
+</head>
+
+ 
+
+<body>
+
+<h1>Upload Photos</h1>
+<!-- Form to select an album and upload photos -->
+
+<form method="post" action="process_upload_photos.php" enctype="multipart/form-data">
+<label for="album">Select Album:</label>
+<select name="album" id="album">
+<!-- Populate this dropdown with existing albums -->
+<!-- You can fetch albums from your database -->
+
+<option value="album1">Album 1</option>
+<option value="album2">Album 2</option>
+</select>
+
+<br>
+<label for="photos">Select Photo(s):</label>
+
+<input type="file" name="photos[]" accept="image/*" multiple required>
+<input type="submit" value="Upload Photos">
+
+</form>
+</body>
+</html>
