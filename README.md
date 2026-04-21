@@ -1,5 +1,5 @@
 # 💫 About Me:
-### Hi I'm Rohit Singh! 👋<br><br>🎓 I completed my **Data Analysis** course<br>🔭 I'm learning **Data Science & AI/ML**  — that's my next big goal<br>🌱 I'm always learning and growing in the **Data field**  <br>💬 Ask me about **Python, SQL, Excel, Power BI, Data Visualization**  <br>📫 How to reach me: [LinkedIn - rohitsingh13102003] | [Email - rohitsingh395023@gmail.com]  <br>😄 Pronouns: He/Him  <br>⚡ Fun fact: If I'm not analyzing data, I'm probably watching cricket! 🏏
+### Hi I'm Rohit Singh! 👋<br><br>🎓 I completed my **Data Analysis** course.<br>🔭 I'm learning **Data Science & AI/ML**  — that's my next big goal.<br>🌱 I'm always learning and growing in the **Data field.**  <br>💬 Ask me about **Python, SQL, Excel, Power BI, Data Visualization.**  <br>📫 How to reach me:<br> [LinkedIn - rohitsingh13102003] <br> [Email - rohitsingh395023@gmail.com]  <br>😄 Pronouns: He/Him  <br>⚡ Fun fact: If I'm not analyzing data, I'm probably watching cricket! 🏏
 
 
 ## 🌐 Socials:
