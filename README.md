@@ -1,35 +1,22 @@
 # 💫 About Me
 
-#### Hi, I'm Rohit Singh! 👋
-
+### Hi, I'm Rohit Singh! 👋
 &nbsp;
 
 #### 🎓 I completed my **Data Analysis** course.
-
 &nbsp;
-
 #### 🔭 I'm learning **Data Science & AI/ML** — that's my next big goal.
-
 &nbsp;
-
 #### 🌱 I'm always learning and growing in the **Data field.**
-
 &nbsp;
-
 #### 💬 Ask me about **Python, SQL, Excel, Power BI, Data Visualization.**
-
 &nbsp;
-
 #### 📫 How to reach me:
 - [LinkedIn](https://linkedin.com/in/rohitsingh13102003)
 - [Email](mailto:rohitsingh395023@gmail.com)
-
 &nbsp;
-
 #### 😄 Pronouns: He/Him
-
 &nbsp;
-
 #### ⚡ Fun fact: If I'm not analyzing data, I'm probably watching cricket! 🏏
 
 ## 🌐 Socials:
