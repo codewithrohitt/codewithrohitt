@@ -2,7 +2,6 @@
 
 ### Hi, I'm Rohit Singh! 👋
 &nbsp;
-
 #### 🎓 I completed my **Data Analysis** course.
 &nbsp;
 #### 🔭 I'm learning **Data Science & AI/ML** — that's my next big goal.
